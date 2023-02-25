@@ -5,4 +5,4 @@
 2) Enabled SNS
 4) Reviewd Well Architected Tool's questions from each pillar
 5) Logical architectural diagram
-![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![Logical Architectural Diagram](/journal/assets/CRUDDUR LOGICAL DIAGRAM.png "image")
