@@ -5,6 +5,7 @@ tracer = trace.get_tracer("home.activities")
 
 class HomeActivities:
   def run():
+    #tracing with attributes in honeycomb------------------------------------------------------------------------
     with tracer.start_as_current_span("home-activites-mock-data"):
       span = trace.get_current_span()
       now = datetime.now(timezone.utc).astimezone()
@@ -48,6 +49,7 @@ class HomeActivities:
       'replies': []
     }
     ]
+    #honeycomb----------------------------------------------------------------------------
     span.set_attribute("app.result_length", len(results))
       
     return results
